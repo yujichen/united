@@ -1,0 +1,1 @@
+sqlldr CONTROL=Loyalty_EM_Export_PCC_SE1711SEL sample.ctl   skip=1   

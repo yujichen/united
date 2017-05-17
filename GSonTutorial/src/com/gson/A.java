@@ -21,7 +21,7 @@ private String data2;
 private List<String> list = new ArrayList<String>();
 
 /**
-* No args constructor for use in serialization
+* No args constructor for use in serialization 2
 * 
 */
 public A() {
