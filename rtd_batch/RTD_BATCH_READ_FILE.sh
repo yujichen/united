@@ -98,7 +98,7 @@ if [ ! $NoOfRecords -eq  $NoOfSuccess ]; then
   cd /rtd/rtd_batch
   #gzip_file $DataFileHome/$FileName $DataFileHome/$FileName.gz $ArchiveDirectory_Failed  
   python3 sendErrorMail.py "$FileName" "number of records successful loaded in DB not match to the number of records in the file."
-  exit 3 # NoOfRecords not match to NoOfSuccess loaded
+  exit 3 # NoOfRecords not match to NoOfSuccess loaded!
 fi
 
 $SQLPlusApp/sqlplus $DBCredentials << EOF
